@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Revenda',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Revenda</b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -270,11 +270,11 @@ return [
             'submenu' => [
                 [
                     'text' => 'level_one',
-                    'url'  => '#',
+                    'url'  => 'teste',
                 ],
                 [
                     'text'    => 'level_one',
-                    'url'     => '#',
+                    'url'     => 'teste',
                     'submenu' => [
                         [
                             'text' => 'level_two',
@@ -298,7 +298,7 @@ return [
                 ],
                 [
                     'text' => 'level_one',
-                    'url'  => '#',
+                    'url'  => 'teste1',
                 ],
             ],
         ],
@@ -306,7 +306,7 @@ return [
         [
             'text'       => 'important',
             'icon_color' => 'red',
-            'url'        => '#',
+            'url'        => 'import',
         ],
         [
             'text'       => 'warning',
